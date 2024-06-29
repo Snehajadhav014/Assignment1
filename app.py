@@ -8,3 +8,8 @@ def read_root():
 @app.get("/about")
 def about():
     return {"msg": "About Us"}
+
+
+@app.get("/Contact")
+def about():
+    return {"msg": "Contact Us"}
